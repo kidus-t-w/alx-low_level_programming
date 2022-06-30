@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point for my program
- *   *
- *    * Description - This program prints out desired output using printf
- *     *
- *      * Return: Zero when program success
- *       */
+ * main - Entry point for my program
+ * 
+ * Description - This program prints out desired output using printf
+ *
+ * Return: Zero when program success
+ */
 
 int main(void)
 {
