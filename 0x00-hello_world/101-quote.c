@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point of my program
  * Description - This program prints to the stderr 
