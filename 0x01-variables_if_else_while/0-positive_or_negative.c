@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- *  * main - Entry point to my program
- *   *
- *    * Decription - This program generates a randon number
- *     *
- *      * Return: This function returns zero
- *       */
+ * main - Entry point to my program
+ *
+ * Decription - This program generates a randon number
+ *
+ * Return: This function returns zero
+ */
 
 int main(void)
 {
