@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
- * int _isupper(int c)
+/**
+ * _isupper - check the code for alx students.
  *
- * Return 1
+ * Return: Always 0.
  */
 int _isupper(int c)
 {
