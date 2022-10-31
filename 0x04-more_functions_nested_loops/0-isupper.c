@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check the code for alx students.
- *
+ * @c: int to be checked.
  * Return: Always 0.
  */
 int _isupper(int c)
