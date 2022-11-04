@@ -1,18 +1,25 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- *puts2- print skip one number
- *@str:checked
- *Return:nothing
+ * puts2 - function
+ * @*str: string
+ * Return: Always 0
  */
 void puts2(char *str)
 {
+	int x;
+	int i;
 
-	int i = 0;
-
-	while (*(str + i) != '\0')
+	x = 0;
+	i = 0;
+	while (str[x] != '\0')
 	{
-		_putchar(str[i]);
-		i += 2;
+		x++;
+	}
+	while (i <= x)
+	{
+		_putchar(*(str + i));
+		i = i + 2;
 	}
 	_putchar('\n');
 }
