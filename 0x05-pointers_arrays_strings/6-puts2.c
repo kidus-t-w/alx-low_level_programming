@@ -3,6 +3,7 @@
 /**
  * puts2 - function
  * @*str: string
+ * @str: string
  * Return: Always 0
  */
 void puts2(char *str)
