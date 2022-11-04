@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  *puts_half- print half
  *@str:checked
@@ -7,20 +8,15 @@
 void puts_half(char *str)
 {
 
-	int i, n;
+	int i, x;
 
 	i = 0;
-
-	while (*(str + i) != '\0')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
-	n = i / 2;
-	while (n <= i)
+	for (x = 0; x >= i / 2; x++)
 	{
-		_putchar(str[n]);
-		n++;
-
+		_putchar(str + x);
 	}
-	_putchar('\n');
 }
