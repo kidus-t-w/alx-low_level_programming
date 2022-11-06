@@ -2,7 +2,7 @@
 
 /**
  * _strlen - mainfunction
- * @s: input string 
+ * @s: input string
  * Return: Always 0.
  */
 int _strlen(char *s)
