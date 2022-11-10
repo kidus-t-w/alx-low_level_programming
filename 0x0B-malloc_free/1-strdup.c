@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * _strdup - Points to a newly allcoated space in memory
- * @str: strint to be
+ * _strdup - duplicates a sting pointed by str
+ * @str: string to be duplicated
  *
- * Return: On success, the function returns string. On
- * Error NULL.
+ * Return: On success, the function returns a pointer
+ * to the duplicated string. On error, it returns NULL.
  */
 char *_strdup(char *str)
 {
 	char *ch;
 	int x, y;
-	
+
 	if (str == NULL)
-	       return (NULL);
+		return (NULL);
 	for (x = 0; str[x] != '\0'; x++)
 	{
 		;
