@@ -15,10 +15,10 @@ void print_rev(char *s)
 	{
 		x++;
 	}
-	x = x-1;
+	x = x - 1;
 	for (y = x; y >= 0; y--)
 	{
 		putchar(s[y]);
 	}
 	putchar('\n');
-}   
+}
