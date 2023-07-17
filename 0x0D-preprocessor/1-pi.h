@@ -1,11 +1,6 @@
-#include <stdio.h>
-/**
- * main - entry point of the program
- * SIZE: size of the given sth
- * Return: Always 0
- */
-int main(void)
-{
-	#define SIZE 1024
-	return (SIZE);
-}
+#ifndef PI_H
+#define PI_H
+
+#define PI 3.14159265359
+
+#endif
