@@ -16,5 +16,5 @@ void _puts(char *str)
         putchar(str[x]);
         x++;
     }
-    putchar("");
+    putchar(" ");
 }
