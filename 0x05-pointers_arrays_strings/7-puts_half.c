@@ -19,7 +19,7 @@ void puts_half(char *str)
 	{
 		y = (x - 1) / 2;
 	}
-	while (y < x)
+	while (y <= x)
 	{
 		putchar(str[y]);
 		y++;
