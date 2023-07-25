@@ -13,9 +13,11 @@ void print_array(int *a, int n)
 	x = 0;
 	while (x < n)
 	{
-		putchar(a[x]);
-		putchar(',');
-		putchar(' ');
+		printf("%d", a[x]);
+		if (x < n -1)
+		{
+			printf(", ");
+		}
 		x++;
 	}
 }
