@@ -13,7 +13,9 @@ void print_array(int *a, int n)
 	x = 0;
 	while (x < n)
 	{
-		putchar(a[x],","," ");
+		putchar(a[x]);
+		putchar(',');
+		putchar(" ");
 		x++;
 	}
 }
