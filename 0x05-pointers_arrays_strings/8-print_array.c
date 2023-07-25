@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		putchar(a[x]);
 		putchar(',');
-		putchar(" ");
+		putchar(' ');
 		x++;
 	}
 }
