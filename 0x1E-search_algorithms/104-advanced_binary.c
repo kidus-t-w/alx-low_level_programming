@@ -1,14 +1,12 @@
 #include "search_algos.h"
 
 /**
- * rec_search - Utilizes the Binary search algorithm to recursively find a
- * specified value within an integer array. This method divides the search
- * interval in half with each iteration to efficiently locate the value.
+ * rec_search - Utilizes the Binary search algorithm to recursively 
  *
  * @array: The array being searched.
  * @size: The total number of elements in the array.
  * @value: The target value to search for.
- * Return: The index of the target value if found, or an indication of absence.
+ * Return: The index of the target value if found
  */
 int rec_search(int *array, size_t size, int value)
 {
@@ -43,14 +41,14 @@ int rec_search(int *array, size_t size, int value)
 }
 
 /**
- * advanced_binary - Invokes rec_search to locate and return the index of a
- * specified value within an array, leveraging the Binary search algorithm.
- * This function aims to refine the search process for increased efficiency.
+ * advanced_binary - Invoke
+ * specified value within an array,
+ * This function aims to refine the search 
  *
  * @array: The array to be searched through.
  * @size: The number of elements contained in the array.
  * @value: The target value to find within the array.
- * Return: The index where the specified value is found, or a marker if the value is not present.
+ * Return: The index where the specified 
  */
 int advanced_binary(int *array, size_t size, int value)
 {
