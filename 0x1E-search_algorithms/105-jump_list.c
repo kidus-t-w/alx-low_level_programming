@@ -10,7 +10,7 @@
  * @list: The list in which to search for the value.
  * @size: The total number of elements in the list.
  * @value: The target value to locate.
- * Return: The index of the target value if found, otherwise an indication of its absence.
+ * Return: The index of the target value if found, otherwise
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
