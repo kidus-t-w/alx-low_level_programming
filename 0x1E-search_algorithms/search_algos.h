@@ -11,9 +11,7 @@
  * @index: The position of the node within the list.
  * @next: A pointer to the subsequent node in the list.
  *
- * Description: This structure represents a node within a singly linked list,
- * designed for use in the Holberton project. It includes the integer value of the node,
- * its index in the list, and a pointer to the next node, facilitating list traversal.
+ * Description: This structure represents a node within a singly linked list
  */
 typedef struct listint_s
 {
@@ -28,13 +26,9 @@ typedef struct listint_s
  * @n: The integer value held by the node.
  * @index: The node's position within the list.
  * @next: A pointer to the next standard node in the list.
- * @express: A pointer to a node further ahead in the list, accessible via the express lane,
- *           designed to improve search efficiency.
+ * @express: A pointer to a node further ahead in the list
  *
  * Description: This structure represents a node within a singly linked list enhanced
- * by an express lane feature for faster traversal and search operations, tailored for
- * the Holberton project. It incorporates both the typical next node pointer and an
- * additional express pointer for quick access to distant nodes.
  */
 typedef struct skiplist_s
 {
