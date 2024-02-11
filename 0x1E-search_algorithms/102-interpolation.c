@@ -1,15 +1,14 @@
 #include "search_algos.h"
 
 /**
- * interpolation_search - Searches an integer array for a specified value using
- * the Interpolation search algorithm, which estimates the position of the value
+ * interpolation_search - Searches an integer array
+ * the Interpolation search algorithm
  * based on its magnitude relative to the values in the array.
  *
  * @array: The array to be searched.
  * @size: The total number of elements within the array.
  * @value: The specific value to find.
- * Return: The index of the found value if it exists, or some indication of
- * non-existence.
+ * Return: The index of the found value if it exists
  */
 int interpolation_search(int *array, size_t size, int value)
 {
