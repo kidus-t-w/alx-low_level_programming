@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * rec_search - Utilizes the Binary search algorithm to recursively 
+ * rec_search - Utilizes the Binary search algorithm to recursively
  *
  * @array: The array being searched.
  * @size: The total number of elements in the array.
@@ -43,12 +43,12 @@ int rec_search(int *array, size_t size, int value)
 /**
  * advanced_binary - Invoke
  * specified value within an array,
- * This function aims to refine the search 
+ * This function aims to refine the search
  *
  * @array: The array to be searched through.
  * @size: The number of elements contained in the array.
  * @value: The target value to find within the array.
- * Return: The index where the specified 
+ * Return: The index where the specified
  */
 int advanced_binary(int *array, size_t size, int value)
 {
